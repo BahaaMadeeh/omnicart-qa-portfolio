@@ -77,11 +77,10 @@ omnicart-qa-portfolio/
             **Negative testing for orphaned order records (LEFT JOIN ... WHERE parent IS NULL).
 
 * **Key Artifact: DB_Verification.sql
-```
+
 
 4. 🐛 Jira Defect Logging & Analysis (bug-reports/)
 
-```text
 * **Focus: Production-ready bug reporting formatted with actionable developer details.
 
 * **Coverage:
@@ -90,9 +89,7 @@ omnicart-qa-portfolio/
             **OMNI-103 (Medium): Database race condition allowing negative stock counts (stock_quantity < 0).
         
 * **Key Artifact: Jira_Defect_Logs.md
-```
+
 
 👨‍💻 Author
-
-```text
 * **Bahaa Madeeh
