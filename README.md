@@ -34,13 +34,13 @@ omnicart-qa-portfolio/
 
 ## 🛠️ Tools & Technologies Used
 
-```text
+
 * **Test Management & Planning:** Markdown, Jira-style formatting
 * **Web & Mobile Testing:** Chrome DevTools, Safari Responsive Viewport Emulation
 * **API Testing:** Desktop / Web Client, RESTful JSON Payloads
 * **Database Verification:** SQL (PostgreSQL / MySQL compatible)
 * **Version Control:** Git, Github
-```
+
 ---
 
 ## 🚀 Module Summaries & Key Deliverables
