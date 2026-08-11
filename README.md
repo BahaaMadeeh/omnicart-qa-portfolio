@@ -46,7 +46,9 @@ omnicart-qa-portfolio/
 
 ## 🚀 Module Summaries & Key Deliverables
 
-* **1.🧪 Manual Web & Mobile Test Cases (test-cases/)**
+---
+
+**1.🧪 Manual Web & Mobile Test Cases (test-cases/)**
 
 * **Focus:** Cross-browser desktop (1920x1080) and responsive mobile viewport testing (iPhone 14 Pro, Pixel 7, iPad Mini).
 
