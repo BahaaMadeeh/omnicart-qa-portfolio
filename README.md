@@ -45,7 +45,8 @@ omnicart-qa-portfolio/
 
 ## 🚀 Module Summaries & Key Deliverables
 
-```text
+---
+
 1.🧪 Manual Web & Mobile Test Cases (test-cases/)
 
 * **Focus: Cross-browser desktop (1920x1080) and responsive mobile viewport testing (iPhone 14 Pro, Pixel 7, iPad Mini).
@@ -53,6 +54,8 @@ omnicart-qa-portfolio/
 * **Coverage: Functional authentication, product catalog sorting, mobile layout responsiveness, cart touch targets, and end-to-end checkout validation.
 
 * **Key Artifact: Web_Mobile_Test_Cases.md
+
+---
 
 2.🔌 REST API Client-Server Testing (postman/)
 
@@ -66,6 +69,8 @@ omnicart-qa-portfolio/
 
 * **Key Artifacts: OmniCart_API_Collection.json & postman/README.md
 
+---
+
 3.🗄️ SQL Backend Database Verification (sql-validation/)
 
 * **Focus: Data integrity, relational constraints, and inventory calculation audit post-UI/API execution.
@@ -78,6 +83,7 @@ omnicart-qa-portfolio/
 
 * **Key Artifact: DB_Verification.sql
 
+---
 
 4. 🐛 Jira Defect Logging & Analysis (bug-reports/)
 
@@ -90,6 +96,9 @@ omnicart-qa-portfolio/
         
 * **Key Artifact: Jira_Defect_Logs.md
 
+---
 
 👨‍💻 Author
 * **Bahaa Madeeh
+
+---
