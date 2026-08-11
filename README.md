@@ -34,6 +34,7 @@ omnicart-qa-portfolio/
 
 ## 🛠️ Tools & Technologies Used
 
+---
 
 * **Test Management & Planning:** Markdown, Jira-style formatting
 * **Web & Mobile Testing:** Chrome DevTools, Safari Responsive Viewport Emulation
@@ -45,60 +46,58 @@ omnicart-qa-portfolio/
 
 ## 🚀 Module Summaries & Key Deliverables
 
----
+* **1.🧪 Manual Web & Mobile Test Cases (test-cases/)**
 
-1.🧪 Manual Web & Mobile Test Cases (test-cases/)
+* **Focus:** Cross-browser desktop (1920x1080) and responsive mobile viewport testing (iPhone 14 Pro, Pixel 7, iPad Mini).
 
-* **Focus: Cross-browser desktop (1920x1080) and responsive mobile viewport testing (iPhone 14 Pro, Pixel 7, iPad Mini).
+* **Coverage:** Functional authentication, product catalog sorting, mobile layout responsiveness, cart touch targets, and end-to-end checkout validation.
 
-* **Coverage: Functional authentication, product catalog sorting, mobile layout responsiveness, cart touch targets, and end-to-end checkout validation.
-
-* **Key Artifact: Web_Mobile_Test_Cases.md
+* **Key Artifact:** Web_Mobile_Test_Cases.md
 
 ---
 
-2.🔌 REST API Client-Server Testing (postman/)
+**2.🔌 REST API Client-Server Testing (postman/)**
 
-* **Focus: Direct backend interface testing using Postman against REST endpoints (/auth, /booking).
+* **Focus:** Direct backend interface testing using Postman against REST endpoints (/auth, /booking).
 
-* **Coverage:
-            **POST /auth: Authentication token generation & header validation.
-            **GET /booking: JSON array response structure validation.
-            **POST /booking: Payload schema creation and field verification.
-            **DELETE /booking/:id: Security header check verifying 403 Forbidden on unauthorized deletion attempts.
+* **Coverage:**
+        * **POST /auth:** Authentication token generation & header validation.
+        * **GET /booking:** JSON array response structure validation.
+        * **POST /booking:** Payload schema creation and field verification.
+        * **DELETE /booking/:** id: Security header check verifying 403 Forbidden on unauthorized deletion attempts.
 
-* **Key Artifacts: OmniCart_API_Collection.json & postman/README.md
-
----
-
-3.🗄️ SQL Backend Database Verification (sql-validation/)
-
-* **Focus: Data integrity, relational constraints, and inventory calculation audit post-UI/API execution.
-
-* **Coverage:
-            **User record creation and password hashing verification.
-            **Inventory stock deduction audit (stock_quantity decrements after checkout).
-            **Relational JOINs across orders, users, and order_items tables to verify price calculations.
-            **Negative testing for orphaned order records (LEFT JOIN ... WHERE parent IS NULL).
-
-* **Key Artifact: DB_Verification.sql
+* **Key Artifacts:** OmniCart_API_Collection.json & postman/README.md
 
 ---
 
-4. 🐛 Jira Defect Logging & Analysis (bug-reports/)
+**3.🗄️ SQL Backend Database Verification (sql-validation/)**
 
-* **Focus: Production-ready bug reporting formatted with actionable developer details.
+* **Focus:** Data integrity, relational constraints, and inventory calculation audit post-UI/API execution.
 
-* **Coverage:
-            **OMNI-101 (Critical): Mobile layout shift overlapping checkout call-to-action buttons.
-            **OMNI-102 (Major): REST API unhandled 500 Internal Server Error exception on malformed JSON payload.
-            **OMNI-103 (Medium): Database race condition allowing negative stock counts (stock_quantity < 0).
+* **Coverage:**
+            * User record creation and password hashing verification.
+            * Inventory stock deduction audit (stock_quantity decrements after checkout).
+            * Relational JOINs across orders, users, and order_items tables to verify price calculations.
+            * Negative testing for orphaned order records (LEFT JOIN ... WHERE parent IS NULL).
+
+* **Key Artifact:** DB_Verification.sql
+
+---
+
+**4. 🐛 Jira Defect Logging & Analysis (bug-reports/)**
+
+* **Focus:** Production-ready bug reporting formatted with actionable developer details.
+
+* **Coverage:**
+           * **OMNI-101 (Critical):** Mobile layout shift overlapping checkout call-to-action buttons.
+           * **OMNI-102 (Major):** REST API unhandled 500 Internal Server Error exception on malformed JSON payload.
+           * **OMNI-103 (Medium):** Database race condition allowing negative stock counts (stock_quantity < 0).
         
-* **Key Artifact: Jira_Defect_Logs.md
+* **Key Artifact:** Jira_Defect_Logs.md
 
 ---
 
 👨‍💻 Author
-* **Bahaa Madeeh
+ **Bahaa Madeeh**
 
 ---
