@@ -48,7 +48,7 @@ omnicart-qa-portfolio/
 
 ---
 
-**1.🧪 Manual Web & Mobile Test Cases (test-cases/)**
+### 1.🧪 Manual Web & Mobile Test Cases (test-cases/)
 
 * **Focus:** Cross-browser desktop (1920x1080) and responsive mobile viewport testing (iPhone 14 Pro, Pixel 7, iPad Mini).
 
@@ -58,7 +58,7 @@ omnicart-qa-portfolio/
 
 ---
 
-**2.🔌 REST API Client-Server Testing (postman/)**
+### 2.🔌 REST API Client-Server Testing (postman/)
 
 * **Focus:** Direct backend interface testing using Postman against REST endpoints (/auth, /booking).
 
@@ -72,7 +72,7 @@ omnicart-qa-portfolio/
 
 ---
 
-**3.🗄️ SQL Backend Database Verification (sql-validation/)**
+### 3.🗄️ SQL Backend Database Verification (sql-validation/)
 
 * **Focus:** Data integrity, relational constraints, and inventory calculation audit post-UI/API execution.
 
@@ -86,7 +86,7 @@ omnicart-qa-portfolio/
 
 ---
 
-**4. 🐛 Jira Defect Logging & Analysis (bug-reports/)**
+### 4. 🐛 Jira Defect Logging & Analysis (bug-reports/)
 
 * **Focus:** Production-ready bug reporting formatted with actionable developer details.
 
@@ -99,7 +99,8 @@ omnicart-qa-portfolio/
 
 ---
 
-👨‍💻 Author
+### 👨‍💻 Author
+
  **Bahaa Madeeh**
 
 ---
